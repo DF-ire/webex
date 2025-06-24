@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>“帆影与仙境” - 青岛&烟台旅游</title>
+
+    <!-- 1. 引入第三方库的样式 -->
+    <!-- Element Plus 样式 -->
+    <link rel="stylesheet" href="https://unpkg.com/element-plus/dist/index.css" />
+    
+    <!-- 2. 引入您自己的 CSS 文件 -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- 3. 引入项目所需字体，增加设计感 -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ma+Shan+Zheng&family=Noto+Sans+SC:wght@300;400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- HTML5核心: 这是Vue应用的根挂载点 -->
+    <!-- 所有的动态内容都将被Vue渲染到这个div中 -->
+    <div id="app">
+        <!-- 为了在JavaScript加载前提供一个优雅的加载提示，可以添加一个加载动画 -->
+        <div class="loading-container">
+            <div class="loading-spinner"></div>
+            <p>正在加载仙境...</p>
+        </div>
+    </div>
+
+    <!-- 4. 引入第三方库的脚本 -->
+    <!-- Vue 3 -->
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+    <!-- Element Plus -->
+    <script src="https://unpkg.com/element-plus/dist/index.full.js"></script>
+
+    <!-- 5. 引入您自己的 JavaScript 文件 -->
+    <!-- type="module" 允许在JS文件中使用 import/export 语法 -->
+    <script type="module" src="script.js"></script>
+
+</body>
+</html>
